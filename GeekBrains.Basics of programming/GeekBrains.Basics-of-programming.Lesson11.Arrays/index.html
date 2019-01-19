@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+<script>
+    var arr = [];
+    var redlength = 0;
+    var maxredlength = 0;
+    for (var i = 0; i < 10; i++) {
+        arr.push(Math.round(Math.random() * 2 - 1));
+    }
+    alert(arr);
+    for (i = 0; i < 10; i++) {
+        if (arr[i] == 1) {
+            redlength = 0;
+            for (; arr[i] == 1; i++) {
+                redlength++;
+                if (redlength > maxredlength) {
+                    maxredlength = redlength;
+                }
+            }
+
+        }
+    }
+    alert("Максимальная последовательность выпадающих подряд красных: " + maxredlength);
+</script>

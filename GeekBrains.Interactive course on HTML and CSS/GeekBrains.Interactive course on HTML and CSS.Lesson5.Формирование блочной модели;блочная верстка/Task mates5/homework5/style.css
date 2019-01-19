@@ -1,0 +1,224 @@
+body {
+ background: #f8f8f8;
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header{
+  height: 100px;
+}
+
+.menu{
+  float: right;
+}
+.menu li{
+ list-style-type: none;
+ width: 60px;
+ height: 30px;
+ float: left;
+ text-align: center;
+ padding-top: 60px;
+ box-sizing: border-box;
+}
+
+.logo{
+  margin-top: 10px;
+  margin-left: 50px;
+  float: left;
+}
+
+.menu li a:hover{
+   color:rgb(204, 128, 197);
+ }
+ 
+ .menu li a:active{
+  color:rgb(171, 44, 71);
+}
+
+.menu a {
+ font-size: 14px;
+ color: #8484f3;
+ text-decoration: none;
+}
+
+.caption
+{
+ color: #000000;
+ font-size: 18px; 
+ font-weight: 400;  
+ background-color:#eaeaea;
+}
+
+.description-short {
+ color: #707070; 
+ font-size: 14px;
+ font-style: italic; 
+ line-height: 16px;
+}
+
+ .description-full {
+ color:#484343;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ text-align: left;
+}
+.description-short::first-letter,
+.description-full::first-letter{
+text-transform: uppercase;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 18px;
+}
+
+.specifications {
+ color:#a96475;
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 20px;
+ list-style-image: url("img/heart.png") 
+} 
+
+form [type="text"],textarea{
+ width: 250px;
+ height: 20px;
+ color:#1e1a1b;
+ font-size: 12px;
+ font-weight: 200;
+ line-height: 14px;
+ font-style: italic;
+ text-transform: capitalize;
+}
+
+form [type="text"]::placeholder, textarea::placeholder{
+  text-transform:none;
+}
+
+textarea{
+ width: 500px;
+ height: 100px;
+}
+
+.product_img {
+  border:#a96475 solid 2px; 
+  padding:0px; 
+  float:left;
+} 
+
+.product_img:hover{
+  border: 0px;
+  padding:2px;
+}
+
+  input[placeholder="Введите ваш Email"]:focus{
+color:rgb(250, 248, 248);
+background-color: rgb(140, 33, 33); 
+ }
+
+ table, caption{
+   border: 1px solid #000;
+   border-collapse: collapse;
+   width: 400px;
+ }
+  
+ td, caption{
+   border: 1px solid #000;
+   padding:5px;
+   color: gray;
+ }
+
+.feeding, caption{
+  width: 500px;
+  text-align: center;
+}
+
+caption{
+  border-bottom: 0px;
+  padding: 25px;  
+
+}
+
+.description-short-block{
+overflow: hidden;
+float: right;
+width: 400px;
+}
+
+.specifications-block{
+  padding-top: 30px;
+}
+
+.specifications-block,
+.description-full-block{
+  clear: both;
+}
+
+
+.footer{
+ height: 50px;
+ background-color: #ccc;
+ text-align: right;
+ padding: 15px;
+ margin-bottom: 0px;
+ box-sizing: border-box;
+ clear: both;
+
+}
+
+hr{
+  clear: both; 
+}
+
+.form{
+  clear: right;
+  float: right;
+  width: 50px;
+}
+
+  input[type="button"]{
+    color: #fff; 
+    background: #6d6df3;
+    border: 1px solid #6d6df3; 
+    border-radius: 3px; 
+    height: 30px;
+  }
+
+  input[type="button"]:hover{
+    color:#6d6df3; 
+    background: #fff;
+    border: 1px solid #6d6df3; 
+    border-radius: 3px; 
+  }
+
+  input[type="button"]:active{
+    color:rgb(171, 44, 71); 
+    border: 1px solid #6d6df3; 
+    border-radius: 3px; 
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
+  .catalog_product{
+    width: 250px;
+    height: 200px;
+   /*  outline: 1px solid black; */
+    float:left;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    
+  }
+
+  .catalog_product a{
+    text-decoration: none;
+  }
+
+  .catalog_product a:hover{
+    text-decoration: underline;
+  }
+  
+

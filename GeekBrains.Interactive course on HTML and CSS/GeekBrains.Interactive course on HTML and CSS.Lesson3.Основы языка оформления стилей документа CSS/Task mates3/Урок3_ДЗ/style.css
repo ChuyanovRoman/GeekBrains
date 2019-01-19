@@ -1,0 +1,80 @@
+body {
+    background-color: #f8f8f8; /*заливка*/
+}
+
+.menu {
+    list-style-type: none; /*убрать маркеры списка*/  
+}
+
+.menu li {
+    height: 50px; /*высота поля*/
+    width: 110px; /*ширина поля*/
+    border: 5px solid #055D5D; /*рамка*/
+    font-size: 20px; /*размер шрифта*/
+    background-color: #F7DF51; /*заливка*/ 
+}
+
+h3 {
+    font color: #000; /*цвет шрифта*/
+    font-size: 18px; /*цвет шрифта*/
+    font-weight: 400; /*насыщенность шрифта*/
+    background-color: #eaeaea; /*заливка*/       
+}
+
+#p1 {
+    font color: #707070; /*цвет шрифта*/
+    font-size: 14px; /*цвет шрифта*/
+    font-style: italic; /*стиль шрифта*/
+    line-height: 16px; /*высота текста*/
+}
+
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8 {
+     font color: #484343; /*цвет шрифта*/
+    font-size: 16px; /*размер шрифта*/
+    font-weight: 400; /*насыщенность шрифта*/
+    line-height: 24px; /*высота текста*/
+    text-align: left; /*расположение текста*/
+}
+
+.specifications {
+    list-style-type: circle; /*маркеры списка*/
+    font-style: oblique; /*стиль текста*/
+    font-size: 16px; /*размер шрифта*/
+    line-height: 17px; /*высота текста*/
+}
+
+.pic {
+    outline: 3px double; /*рамка, лучше чем "border"*/
+    outline-color: darkgray; /*цвет рамки*/
+}
+
+input[type=text] {
+    font-size: 15px; /*размер шрифта*/
+    font-style: italic; /*стиль текста*/
+    font-weight: 600; /*насыщенность шрифта*/
+    color: #A64B00; /*цвет шрифта*/
+    border: 3px inset; /*рамка*/
+    background-color: #5CCDC9; /*заливка*/
+}
+
+input[type=e-mail] {
+    font-size: 15px; /*размер шрифта*/
+    font-style: italic; /*стиль текста*/
+    font-weight: 600; /*насыщенность шрифта*/
+    color: #A64B00; /*цвет шрифта*/
+    border: 3px inset; /*рамка*/
+    background-color: #5CCDC9; /*заливка*/
+}
+
+#address {
+    font-size: 16px; /*размер шрифта*/
+    font-style: oblique; /*стиль текста*/
+    border: solid; /*рамка*/
+    border-color: darkcyan; /*заливка*/
+}

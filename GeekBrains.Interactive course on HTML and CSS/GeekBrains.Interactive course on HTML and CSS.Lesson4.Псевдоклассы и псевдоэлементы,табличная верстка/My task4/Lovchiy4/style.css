@@ -1,0 +1,282 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu {
+    padding-left: 10px
+}
+
+.a1 {
+    color: yellow;
+    font-family: cursive;
+    font-size: 23px;
+    text-decoration: none;
+    background-color: forestgreen;
+    border: 1px outset yellow
+}
+
+.a1:hover {
+    color: aqua;
+    background-color: green;
+    border: 1px outset aqua
+}
+
+.a1:active {
+    color: red;
+    border: 1px outset red
+}
+
+.headlines {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea
+}
+
+.briefly {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px
+}
+
+.detail {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left
+}
+
+.specifications {
+    font-size: 25px;
+    list-style: url(img/right.png);
+    font-family: monospace;
+    background: url(img/forest.jpg);
+    color: yellow;
+    background-position: 0px -453px;
+    border: 4px outset forestgreen;
+    outline: 4px outset yellow
+}
+
+.top {
+    color: yellow;
+    font-family: cursive;
+    background: url(img/forest.jpg);
+    height: 100px;
+    border: 4px solid yellow;
+    outline: 4px solid forestgreen;
+    background-position: 0px -140px
+}
+
+.data1,
+.data2,
+.data3 {
+    width: 500px;
+    height: 50px;
+    color: yellow;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 100px;
+    font-family: cursive;
+    background: url(img/forest.jpg);
+}
+
+.data1 {
+    background-position: 0px -290px
+}
+
+.data2 {
+    color: aqua;
+    background-position: 0px -365px
+}
+
+.data3 {
+    background-position: 0px -445px
+}
+
+select {
+    background-color: green;
+    color: yellow
+}
+
+.button {
+    background-color: forestgreen;
+    color: yellow;
+    height: 40px;
+    border-radius: 100px;
+    font-family: cursive;
+    font-size: 20px
+}
+
+.button:hover {
+    color: aqua;
+    background-color: green
+}
+
+.button:active,
+.reset:hover {
+    color: red
+}
+
+.frame {
+    background: url(img/forest.jpg);
+    background-position: 0px -150px;
+    border: 4px outset yellow;
+    outline: 4px outset forestgreen
+}
+
+.lovchiy {
+    text-align: center;
+    font-size: 100px;
+    color: yellow;
+    font-family: cursive;
+}
+
+.greeting1 {
+    text-align: center;
+    font-family: cursive;
+    color: yellow;
+    font-size: 45px;
+}
+
+.greeting2 {
+    text-align: center;
+    font-family: cursive;
+    color: yellow;
+    font-size: 45px;
+}
+
+.message {
+    background: url(img/forest.jpg);
+    color: yellow;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 30px;
+    height: 280px;
+    width: 1400px;
+    background-position: 0px -670px
+}
+
+.product a {
+    outline: 12px solid yellow;
+}
+
+.product a:hover {
+    outline: none
+}
+
+.product {
+    background: url(img/forest.jpg);
+    text-align: center;
+    border: 4px outset forestgreen;
+    outline: 4px solid yellow
+}
+
+.arrow a {
+    color: white;
+    text-decoration: none;
+    border: 4px solid forestgreen;
+    outline: 4px outset yellow
+}
+
+.arrow a:hover {
+    border: 4px outset green
+}
+
+.arrow {
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    background: url(img/forest.jpg);
+    background-position: 0px -970px;
+    border: 4px solid forestgreen;
+    outline: 4px
+}
+
+.arrow a:hover {
+    color: aqua
+}
+
+.arrow a:active {
+    color: red
+}
+
+.formcontacts {
+    color: yellow;
+    font-size: 15px;
+    font-family: cursive;
+    background: url(img/forest.jpg);
+    background-position: 0px -250px;
+    border: 4px outset forestgreen;
+    outline: 4px outset yellow
+}
+
+.productscatalog {
+    border: 4px inset forestgreen;
+    outline: 4px inset yellow
+}
+
+.footer {
+    height: 100px
+}
+
+.header {
+    background: url(img/forest.jpg);
+    border: 4px outset yellow;
+    outline: 4px outset forestgreen
+}
+
+.logo {
+    width: 200px;
+    height: 90px
+}
+
+.logo2 {
+    width: 1195px;
+    text-align: center
+}
+
+.data1,
+.data2,
+.data3,
+.message {
+    text-transform: capitalize;
+}
+
+.detail:first-letter,
+.briefly:first-letter,
+.specifications:first-letter {
+    font-size: 30px;
+    font-family: cursive
+}
+
+.table {
+    width: 400px;
+    height: 200px;
+    border-collapse: collapse
+}
+
+.table td {
+    border: 2px solid green;
+    font-size: 20px
+}
+
+.table2 {
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse
+}
+
+.table2 td {
+    border: 2px solid yellow
+}
+
+.tr {
+    height: 150px
+}
+
+.seven {
+    width: 118px;
+    background-color: green
+}

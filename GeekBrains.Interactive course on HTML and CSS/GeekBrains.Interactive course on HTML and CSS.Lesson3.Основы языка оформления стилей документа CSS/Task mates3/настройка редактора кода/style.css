@@ -1,0 +1,49 @@
+body {
+   background-color : #f8f8f8; 
+}
+
+.menu li {
+    font-style: oblique;
+    font-size: 26px;
+    list-style-type: none;
+}
+
+.menu li a {
+color: darkblue;
+}
+
+.header{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.detail{
+   color:  #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    text-align: left;
+}
+
+.list{
+    color: darkslateblue;
+    font-size: 14px;
+    list-style-type: square;
+}
+
+input {
+	width: 300px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+	border-radius: 8px;
+}

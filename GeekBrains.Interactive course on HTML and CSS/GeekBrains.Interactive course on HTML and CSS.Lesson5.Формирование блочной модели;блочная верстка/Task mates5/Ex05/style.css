@@ -1,0 +1,131 @@
+body{background-color: #f8f8f8;
+}
+
+p:first-letter{
+   color: brown;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 140px;
+}
+
+.menu > li{
+    padding-left: 30px;
+    float: left;
+}
+
+.logo {
+    display: inline;
+    position: relative;
+    padding-top: 200px;
+    padding-left: 40px;
+}
+
+.menu2{
+    height: 35px;
+    max-width: 25em;
+    margin-right: 0;
+    margin-left: auto;
+    position: relative;
+    bottom: 40px;        
+}
+
+.product{
+    height: 145px;
+    width: 160px;
+    float: left;
+   }
+
+.short_discr{
+    display: inline;
+    float: left;
+    outline: 1px solid black;
+    height: 100px;
+    width: 125px;
+    margin-right: 5px;    
+    }
+
+.short_discr:hover{
+    outline: none    
+}
+
+.menu {
+    list-style-type: none;
+    }
+
+.menu a{
+    color: crimson; 
+    font-size: 20px;
+    font-style: italic; 
+}
+
+.product a:hover{
+    color: green;
+}
+
+.menu a:visited{
+    color: blue
+}
+
+.menu a:hover{
+    color: green;
+}
+
+.footer{
+    height: 60px;
+    background-color:darkgray;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    clear: both
+}
+
+.info:focus{
+    color: brown;
+    background-color: antiquewhite;
+}
+
+.info {
+    text-transform: capitalize
+}
+
+h1,h3 {
+    color: brown;
+    text-align: center
+}
+
+.headings_merch {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short_discrtext {
+    color:#707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full_discrtext{
+    color:#484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.charactericts{
+    list-style-type: square;
+ }
+
+.charactericts {
+    color: RGB(100,180,45); 
+    font-size: 15px;
+    font-style: italic
+}

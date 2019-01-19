@@ -1,0 +1,340 @@
+.container {
+    width: 1900px;
+    height: 200px;
+    background-color: darkcyan;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f8f8f8; /*заливка*/
+}
+
+.header {
+    width: 800px;
+    height: 300px;
+}
+
+.header3 {
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+
+.logo1 {
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.logo2 {
+    position: absolute;
+    margin-left: 0 auto;
+    
+}
+
+.logo3 {
+    position: absolute;
+    float: left;
+    display: inline-block;
+    margin-left: -745px;
+}
+
+.menu1 {
+    list-style-type: none; /*убрать маркеры списка*/
+    text-align: center;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    padding-left: 350px;
+    padding-top: 215px
+}
+
+.menu1 li {
+    float: left;
+    height: 50px; /*высота поля*/
+    width: 110px; /*ширина поля*/
+    border: 5px solid #055D5D; /*рамка*/
+    font-size: 20px; /*размер шрифта*/
+    background-color: #ccc; /*заливка*/ 
+    display: inline-block;
+}
+
+.menu1 li:first-child {
+    /*border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;*/
+    outline-color: #055D5D;
+}
+
+.menu1 li a:hover {
+    color: darkgoldenrod;
+}
+
+.menu1 li:last-child {
+    /*border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;*/
+}
+
+h3 {
+    font color: #000; /*цвет шрифта*/
+    font-size: 18px; /*цвет шрифта*/
+    font-weight: 400; /*насыщенность шрифта*/
+    background-color: #eaeaea; /*заливка*/       
+}
+
+#p1 {
+    font color: #707070; /*цвет шрифта*/
+    font-size: 14px; /*размер шрифта*/
+    font-style: italic; /*стиль шрифта*/
+    line-height: 16px; /*высота текста*/
+}
+
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8 {
+    font color: #484343; /*цвет шрифта*/
+    font-size: 16px; /*размер шрифта*/
+    font-weight: 400; /*насыщенность шрифта*/
+    line-height: 24px; /*высота текста*/
+    text-align: left; /*расположение текста*/
+}
+
+#p1:first-letter {
+    font-size: 20px;
+    color: red;
+}
+
+#p2:first-letter {
+    font-size: 20px;
+    color: red;
+}
+
+#p3:first-letter {
+    font-size: 20px;
+    color: red;
+}
+
+#p4:first-letter {
+    font-size: 20px;
+    color: red;
+}
+
+#p5:first-letter {
+    font-size: 20px;
+    color: red;
+}
+
+#p6:first-letter {
+    font-size: 20px;
+    color: red;
+}
+
+#p7:first-letter {
+    font-size: 20px;
+    color: red;
+}
+
+#p8:first-letter {
+    font-size: 20px;
+    color: red;
+}
+
+/*ЗДЕСЬ ВПИСАТЬ ТАБЛИЦУ С ХАР-МИ*/
+
+.specifications {
+    list-style-type: circle; /*маркеры списка*/
+    font-style: oblique; /*стиль текста*/
+    font-size: 16px; /*размер шрифта*/
+    line-height: 17px; /*высота текста*/
+}
+
+.pic {
+    outline: 3px double; /*рамка, лучше чем "border"*/
+    outline-color: darkgray; /*цвет рамки*/
+}
+
+.pic:hover {
+    outline: 3px double;
+    outline-color: white;
+}
+
+input[type=text] {
+    font-size: 15px; /*размер шрифта*/
+    font-style: italic; /*стиль текста*/
+    font-weight: 600; /*насыщенность шрифта*/
+    color: #A64B00; /*цвет шрифта*/
+    border: 3px inset; /*рамка*/
+    background-color: #5CCDC9; /*заливка*/
+    text-transform: capitalize;
+}
+
+.name:focus {
+    font-size: 17px;
+    color: #000;
+    background-color: #fff;
+}
+
+input[type=e-mail] {
+    font-size: 15px; /*размер шрифта*/
+    font-style: italic; /*стиль текста*/
+    font-weight: 600; /*насыщенность шрифта*/
+    color: #A64B00; /*цвет шрифта*/
+    border: 3px inset; /*рамка*/
+    background-color: #5CCDC9; /*заливка*/
+}
+
+.e-mail:focus {
+    font-size: 17px;
+    color: #000;
+    background-color: #fff;
+}
+
+#address {
+    font-size: 16px; /*размер шрифта*/
+    font-style: oblique; /*стиль текста*/
+    border: solid; /*рамка*/
+    border-color: darkcyan; /*заливка*/
+    text-transform: capitalize;
+}
+
+table {
+    border: 1px solid #000;
+    width: 1000px;
+    height: 400px;
+}
+
+td {
+    border: 1px solid #000;
+    width: 800px;
+    height: 100px;
+}
+
+.main_pic {
+ margin-top: 30px;
+}
+
+.main_pic1 {
+    margin-top: 300px;
+}
+
+.short_description {
+    margin-top: -500px;
+    padding-left: 800px;
+}
+
+.short_description1 {
+    padding-left: 720px;
+    margin-top: -390px;
+    padding-bottom: 300px;
+}
+
+.buy:hover {
+    outline: double black;
+    background-color: aquamarine;
+}
+
+.detail_description {
+    margin-top: 500px;
+}
+
+.detail_description {
+    /*С В О Й С Т В А !!!*/
+}
+
+.content1 {
+    float: left;
+    margin-top: 300px;
+    margin-left: -700px;
+}
+
+.item_1 {
+    position: relative;
+}
+
+#item_1 {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: -300px;
+}
+
+#item_1:hover {
+    color: crimson;
+}
+
+.item_2 {
+    position: relative;
+    margin-left: 500px;
+    margin-top: -153px;
+}
+
+#item_2 {
+    position: absolute;
+}
+
+#item_2:hover {
+    color: crimson;
+}
+
+.content2 {
+    margin-top: 350px
+}
+
+.footer {
+    float: right;
+    background-color: #CA9CAF;
+    width: 200px;
+    height: 60px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.footer1 {
+    width: 200px;
+    height: 100px;
+    background-color: #CA9CAF;
+    float: right;
+    margin-top: 750px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.footer2 {
+    float: right;
+    background-color: #CA9CAF;
+    width: 200px;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer3 {
+    float: right;
+    background-color: #CA9CAF;
+    width: 200px;
+    height: 120px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.footer4 {
+    float: right;
+    background-color: #CA9CAF;
+    width: 200px;
+    height: 60px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/*размерность карты изменил в строке кода конструктора карты!*/
+/*.map {
+    border: 1px solid black;
+    width: 100%;
+    height: 374px;
+}*/

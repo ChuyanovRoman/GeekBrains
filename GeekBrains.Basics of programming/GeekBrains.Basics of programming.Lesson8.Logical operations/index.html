@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+<script>
+    var n = 0;
+    var name = prompt('Введите ваше имя:');
+    alert('Здавствуйте ' + name);
+    var otvet = prompt('Поиграем?');
+    if (otvet = 'да'); {
+        alert('Давайте начнем');
+    }
+    var gradus = parseInt(prompt('Введите угол:'));
+    if (((gradus >= 40) && (gradus <= 50)) || ((gradus >= 60) && (gradus <= 70))) {
+        alert('Вы поразили цель!');
+        n++;
+    }
+    else if (gradus < 0) {
+        alert('Введите угол больше ноля');
+    }
+    else if (isNaN(gradus)) {
+        alert('Введите угол цифрами');
+    }
+    else {
+        alert('Miss');
+    }
+    alert('Колличество попаданий:' + n);
+</script>

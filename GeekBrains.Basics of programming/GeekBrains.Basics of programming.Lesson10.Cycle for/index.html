@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<script>
+    do {
+        var v = prompt('Здравствуйте!Хотите сделать вклад?Введите:<Да>или:<Нет>:');
+        if (v == ('Да')) {
+            var name = prompt('Введите ваше имя:');
+            alert('Здавствуйте ' + name);
+            var a = parseInt(prompt('Введите сумму вклада,руб.:'));
+            var b = parseInt(prompt('На сколько лет?'));
+            var f = parseInt(prompt('Процентная ставка,%:'));
+            for (var z = 1; z <= b; z++) {
+                a = a + a / 100 * f;
+                if (z == 1) {
+                    alert('Сумма вклада через ' + z + ' год: ' + a + 'руб.')
+                }
+                else if (z > 4) {
+                    alert('Сумма вклада через ' + z + ' лет: ' + a + 'руб.')
+                }
+                else {
+                    alert('Сумма вклада через ' + z + ' года: ' + a + 'руб.')
+                }
+            }
+        }
+        else if (v == ('Нет')) {
+            break
+        }
+    }
+    while (z == b);
+    alert('Приходите к нам еще!')
+</script>
